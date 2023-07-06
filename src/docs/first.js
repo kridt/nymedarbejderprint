@@ -34,7 +34,7 @@ export default function First({ lønnummer, navn }) {
         </p>
         <br />
         <p>
-          <strong>Spørgsmål angpående</strong>
+          <strong>Spørgsmål angående</strong>
         </p>
 
         <p>
@@ -74,6 +74,17 @@ export default function First({ lønnummer, navn }) {
           <strong>Lønnummer</strong>
         </p>
         <p>Dit lønnummer/personID: {lønnummer}</p>
+        <p>Kode: Abcd1234</p>
+        <p>
+          Det er <strong>meget</strong> vigtigt, at du husker dit
+          lønnummer/personID og kode, da det er dit personlige login til alle
+          systemer i føtex. Du skal bl.a. bruge det til UKG, hvor du kan se dine
+          vagtplaner, mitføtex- appen, som er vores centrale
+          kommunikationsværktøj, men også i butikken på bl.a. vores PDA’er.
+        </p>
+        <h2 style={{ color: "#d36360" }}>
+          Vi glæder os til at arbejde sammen med dig!
+        </h2>
       </div>
     </div>
   );
