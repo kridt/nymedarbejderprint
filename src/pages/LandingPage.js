@@ -73,7 +73,7 @@ export default function LandingPage() {
         }}
         ref={printstuff}
       >
-        <First />
+        <First lønnummer={medarbejderLøn} />
         <Sec />
       </div>
       <button onClick={handlePrint}>asdasdasd</button>
