@@ -23,8 +23,6 @@ export default function First({ lønnummer, navn }) {
         <br />
         <br />
         <br />
-        <br />
-        <br />
         <h1 style={{ color: "#d36360" }}>
           Vi har glædet os rigtig meget til at byde dig velkommen!
         </h1>
