@@ -2,7 +2,7 @@ import React from "react";
 import img from "./image1.jpg";
 import "./first.scss";
 
-export default function First({ lønnummer, navn }) {
+export default function First({ lønnummer, navn, leader, leaderNumber }) {
   return (
     <div style={{ display: "grid", gridArea: "1/1/2/2" }}>
       <div style={{ gridArea: "1/1/2/2" }} className="img">
@@ -40,8 +40,8 @@ export default function First({ lønnummer, navn }) {
           dagligdagen.
         </p>
         <p>Kontakt din nærmeste leder:</p>
-        <p>Mikkel Kirckhoff Eller Christian Nielsen</p>
-        <p>Tlf: 43 66 50 11 eller 43 66 50 12</p>
+        <p>{leader}</p>
+        <p>Tlf: {leaderNumber}</p>
         <br />
         <p>
           Fejl på lønseddel, problemer med login til div. apps, problemer med
