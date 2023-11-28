@@ -11,7 +11,7 @@ export default function LandingPage() {
   const [medarbejderNavn, setMedarbejderNavn] = useState("");
   const [medarbejderLøn, setMedarbejderLøn] = useState();
   const [closestLeader, setClosestLeader] = useState(
-    "Mikkel Kirckhoff Eller Christian Nielsen"
+    "Mikkel Kirckhoff Eller Julie Brink"
   );
   const [afdeling, setAfdeling] = useState("Service");
   const [closestLeaderNumber, setClosestLeaderNumber] = useState(
